@@ -70,7 +70,7 @@ const h1 = document.getElementById ("time");   // HTML 에서 'id'가 "time"인 
 const go = document.getElementById ("go");     // HTML 에서 'id'가 "go"인 요소를 찾아서 그 요소를 나타내는 'go' 변수를 선언한다. (시계의 시작 동작을 트리거하는데 사용)
 const stop = document.getElementById ("stop"); // HTML 에서 'id'가 "stop"인 요소를 찾아서 그 요소를 나타내는 'stop' 변수를 선언한다. (시계의 정지 동작을 트리거하는데 사용)
 
-function getTime1(){                                                // 현재 시간을 읽는 기능을 함수를 통해 구현
+function getTime(){                                                // 현재 시간을 읽는 기능을 함수를 통해 구현
     const date = new Date();                                       // 현재 날짜 및 시간을 가져온다.
     const hour = date.getHours();                                  // 현재 시간에서 시간 부분을 가져온다.
     const minutes = date.getMinutes().toString().padStart(2, '0'); // 현재 시간에서 분 부분을 가져온 후, 문자열로 변환하고, 필요한 경우 두 자리로 패딩한다. {.toString().padStart(2, '0'); 2가 두자릿수, '0' 한자릿 수 일때 0을 붙여라}

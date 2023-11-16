@@ -108,9 +108,3 @@ body {
 
 /* class 일 때 .abcd */
 /* id 일 때 #abcd */
-
-.memo {
-    font-size: 15px;
-    margin-top: 1000px;
-    margin-left: -50%;
-}
