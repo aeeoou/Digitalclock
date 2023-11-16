@@ -1,4 +1,5 @@
 // 달력 JS
+// 1123113123123
 let date = new Date();                                                                             // 현재 날짜와 시간을 기반으로 나타내는 JS의 Date객체를 생성
 
 const renderCalendar = () => {                                                                     // 'renderCalendar' 함수를 정의한다. 이 함수는 현재 날짜를 기반으로 달력을 렌더링하고 HTML에 표시하는 역할
